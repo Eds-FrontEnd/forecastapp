@@ -1,0 +1,18 @@
+.btn {
+    position: absolute;
+    width: 240px;
+    height: 65px;
+    background-color: var(--green);
+    border-radius: 19px;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    color: white;
+    transition: all 0.5s;
+  }
+  .btn:hover {
+    background-color: var(--green-hover);
+  }
+  

@@ -1,0 +1,45 @@
+body {
+	overflow: hidden;
+}
+
+.loading{
+	width: 1000px;
+	margin: auto;
+	overflow: hidden;
+}
+
+iframe .loader{
+  background: #AAA;
+	width: 400px;
+	height: 280px;
+	border: none;
+	overflow: hidden;
+}
+
+iframe .loader::-webkit-scrollbar { 
+	display: none;
+}
+
+.loading{
+  width: 100vw;
+  height: 103vh;
+  overflow-y: hidden;
+  opacity: 1;
+}
+.loader {
+  width: 100vw;
+  height: 103vh;
+  background-color: var(--blue);
+  visibility: 0;
+  opacity: 1;
+  z-index: 150;
+  overflow-y: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  transition: all 0.3s;
+  position: absolute;
+}

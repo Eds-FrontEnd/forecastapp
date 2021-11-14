@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 340px;
+  height: 400px;
+  border-radius: 20px;
+  margin: 10px;
+  position: relative;
+  background-color: var(--white);
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  transition: all 0.5s;
+  z-index: 22;
+}
+.title-initial {
+  font-family: var(--roboto);
+  font-weight: 500;
+  font-size: 18px;
+  color: var(--gray);
+  margin-top: 45px;
+  text-align: center;
+}
+.logotype {
+  margin-top: 60px;
+  margin-bottom: 10px;
+}
+.logotype img {
+  margin-top: -54px;
+  transition: all 0.5s;
+}
+.input {
+  width: 220px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 2px solid var(--blue);
+  outline: none;
+  font-size: 16px;
+  text-align: center;
+  padding: 10px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  transition: all 0.5s;
+}
+.btn {
+  width: 240px;
+  height: 65px;
+  margin-top: 150px;
+  left: 15%;
+  position: absolute;
+  background-color: var(--green);
+  color: var(--white);
+  font-family: var(--roboto);
+  font-size: 20px;
+  transition: all 0.5s;
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: all 0.5s;
+}
+.btn:hover {
+  background-color: var(--green-hover);
+}
+.btn-voltar{
+  margin-top: -85px;
+}
+.city {
+  font-size: 32px;
+}
+.date {
+  font-size: 16px;
+}
+.container-temp {
+  font-size: 50px;
+  font-weight: 900;
+  background-color: var(--blue);
+}
+.data_container{
+  width: 60vw;
+  min-height: 600px;
+  margin-top: -90px;
+  background-color: var(--white);
+  color: var(--blue);
+  border-radius: 20px;
+  transition: all .3s;
+}
+
+.city-title{
+  padding: 15px;
+}
+.weather {
+  font-size: 32px;
+}
+.hi-low {
+  font-size: 22px;
+}
+.icones img{
+  width: 100px;
+  height: auto;
+}
+
+@media screen and (max-width: 570px){
+  .data_container{
+    width: 345px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .container {
+    width: 275px;
+  }
+  .data_container{
+    width: 285px;
+  }
+  .logotype img {
+    width: 170px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .input {
+    width: 180px;
+    font-size: 14px;
+  }
+  .btn {
+    width: 190px !important;
+    left: 43px;
+  }
+}
