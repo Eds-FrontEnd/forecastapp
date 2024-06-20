@@ -10,27 +10,23 @@ Antes de começar, certifique-se de ter o Node.js e o npm instalados em seu ambi
 
 ## Instalação
 
-1. Clone este repositório para o seu ambiente local:
-
-   ```bash
-   git clone https://github.com/seu-usuario/forecastapp.git
-   
-2. Navegue até o diretório do projeto:
+1. Baixe o projeto em arquivo zip para seu ambiente local e
+navegue até a pasta do projeto:avegue até o diretório do projeto:
 
    ```bash
    cd api-app
       
-3. Instale as dependências necessárias do projeto utilizando npm:
+2. Instale as dependências necessárias do projeto utilizando npm:
 
    ```bash
    npm install
       
-4. Se necessário, execute o comando a seguir para corrigir vulnerabilidades:
+3. Se necessário, execute o comando a seguir para corrigir vulnerabilidades:
 
    ```bash
    npm audit fix --force (se for necessário)
 
-5. Instale as seguintes dependências adicionais:
+4. Instale as seguintes dependências adicionais:
    ```bash
    npm install axios
 
@@ -40,7 +36,7 @@ Antes de começar, certifique-se de ter o Node.js e o npm instalados em seu ambi
 
    npm install react-lottie --save
 
-6. Para iniciar o servidor de desenvolvimento do Angular e visualizar o projeto:
+5. Para iniciar o servidor de desenvolvimento do Angular e visualizar o projeto:
 
    ```bash
    npm start
