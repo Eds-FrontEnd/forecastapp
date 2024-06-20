@@ -22,11 +22,12 @@ const Weather = () => {
   const [wind, setWind] = useState("");
   const [icon, setIcon] = useState("");
   const [showMyComponent, setshowMyComponent] = useState(false);
+  const API_key = "(sua chave aqui sem os parênteses)";
 
   const getWeatherData = async (city) => {
     await axios({
       method: "GET",
-      url: `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&lang=pt&appid=(tire os parenteses e cole seu número de API)`,
+      url: `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&lang=pt&appid=${API_key}`,
     })
       .then((res) => {
         console.log(res.data);
